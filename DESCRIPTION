@@ -1,0 +1,11 @@
+Package: AimSqlTools
+Type: Package
+Title: Aquires and Uses AIM 
+Version: 0.1.0
+Author: Michael Schmidt
+Maintainer: The package maintainer <mschmidty@gmail.com>
+Description: A package for working on Assessment Inventory and Monitoring Data in the TerrADat database. You must have access to a BLM computer to use this package and be connected to the SQL database.
+    Use four spaces when indenting paragraphs within the Description.
+License: The AimSqlTools package as a whole is distributed under GPL-3 (GNU GENERAL PUBLIC LICENSE version 3).
+Encoding: UTF-8
+LazyData: true
