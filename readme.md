@@ -5,7 +5,7 @@ Is an R package to access the Terrestrial SDE MySQL database with a single funct
 ## Installation
 
 ```r
-devtools::install_github(mschmidty/AimSqlTools);
+devtools::install_github("mschmidty/AimSqlTools");
 ```
 
 ## Prerequisites 
