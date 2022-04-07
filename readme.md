@@ -38,7 +38,7 @@ Now you can use the `AimSqlPackage`.
 
 Returns a named list:
 
-Default loadds:
+Default loads:
 * Terradat (`$tdat`) sf object.
 * Terradat species indicators (`$sp_ind`) as a tibble.
 * LMF points (`$lmf`) as sf object.
