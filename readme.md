@@ -65,6 +65,14 @@ data<-load_terradat("AIMpub", extra=FALSE)
 data$tdat
 ```
 
+### Load additional Tables
+You can load additional tables with: 
+```r
+test<-query_db2(conn, tbl_name)
+```
+* `conn` - is the SQL query connection. If you set up your connection using the directions above this would be "AIMPub". 
+* `tbl_name` - is the sde table name "TBLSPECRICHDETAIL_evw" for example. 
+
 
 
 
