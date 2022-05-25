@@ -9,6 +9,8 @@ devtools::install_github("mschmidty/AimSqlTools");
 ```
 
 ## Prerequisites 
+### BLM Access
+To use this package you must be on A BLM computer and logged into a BLM network either directly or through VPN. 
 
 ### Rtools
 You need Rtools installed in order to install this package from source.  It is approved in the BLM Software Catalog found [here](https://doimspp.sharepoint.com/sites/blm-oc-dirm/beeio/ncm/SitePages/Search-for-Software.aspx) and requires a helpdesk ticket to install. 
