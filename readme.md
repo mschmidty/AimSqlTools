@@ -10,10 +10,13 @@ devtools::install_github("mschmidty/AimSqlTools");
 
 ## Prerequisites 
 
+### Rtools
+You need Rtools installed in order to install this package from source.  It is approved in the BLM Software Catalog found [here](https://doimspp.sharepoint.com/sites/blm-oc-dirm/beeio/ncm/SitePages/Search-for-Software.aspx) and requires a helpdesk ticket to install. 
+
+### RODBC Connection
 In order to use this package you must be on a BLM computer and have created an ODBC connection using your user credentials to access the database.  
 
 To create an ODBC connection, on a Windows computer connected to a BLM network or VPN network search "ODBC Data Sources (32-bit)" in the windows search bar. 
-
 
 When the window opens: 
 * Click "Add". 
@@ -38,7 +41,7 @@ Now you can use the `AimSqlPackage`.
 
 Returns a named list:
 
-Default loads:
+Defaults loads:
 * Terradat (`$tdat`) sf object.
 * Terradat species indicators (`$sp_ind`) as a tibble.
 * LMF points (`$lmf`) as sf object.
